@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Memilih Element Berdasarkan ID</title>
+</head>
+<body>
+    
+    <!--Element div yang akan kita pilih dari JS-->
+    <div id="tutorial"></div>
+
+    <script type="text/javascript">
+        // Mengakses element tutorial
+        var tutorial = document.getElementById("tutorial");
+
+        // Mengisi text dalam elemen
+        tutorial.innerText = "Tutorial Javascript";
+
+        // Memberikan CSS ke elemen
+        tutorial.style.backgroundColor = "gold";
+        tutorial.style.padding = "10px";
+
+    </script>
+</body>
+</html>
